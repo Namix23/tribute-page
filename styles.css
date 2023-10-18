@@ -6,14 +6,14 @@ p {
 font-family: 'Corben', serif;
 }
 
-figure {
-  border: 3px solid red;
+span {
+  font-size: 20px;
 }
 
 img {
   border: 20px ridge black;
   width: 100%;
-  max-width: 350px;
+  max-width: 550px;
   display: block;
   margin: auto;
 }
