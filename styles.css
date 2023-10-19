@@ -6,8 +6,12 @@ p {
 font-family: 'Corben', serif;
 }
 
-span {
-  font-size: 20px;
+main, footer {
+  text-align: center;
+}
+
+figcaption {
+  line-height: 2rem;
 }
 
 img {
@@ -16,4 +20,8 @@ img {
   max-width: 550px;
   display: block;
   margin: auto;
+}
+
+.author {
+  border-style: groove hidden;
 }
