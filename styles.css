@@ -9,6 +9,7 @@ font-family: 'Corben', serif;
 
 main, footer {
   text-align: center;
+  padding: 20px 85px;
 }
 
 figcaption {
@@ -25,4 +26,5 @@ img {
 
 .author {
   border-style: groove hidden;
+  color: gold;
 }
