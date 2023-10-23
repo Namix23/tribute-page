@@ -3,8 +3,9 @@ h1, h2 {
   line-height: 2;
 }
 
-p {
+main p {
 font-family: 'Corben', serif;
+text-align: justify;
 }
 
 main, footer {
@@ -26,5 +27,5 @@ img {
 
 .author {
   border-style: groove hidden;
-  color: gold;
+  color: #c9b43c;
 }
