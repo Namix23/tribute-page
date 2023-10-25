@@ -1,6 +1,10 @@
 h1, h2 {
   font-family: 'BioRhyme', serif;
-  line-height: 2;
+}
+
+h2 {
+  line-height: 2.5;
+  color: #88681f;
 }
 
 main p {
