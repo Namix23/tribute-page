@@ -28,6 +28,11 @@ img {
   margin: auto;
 }
 
+section {
+  display: flex;
+  justify-content: center;
+}
+
 .author {
   border-style: groove hidden;
   color: #c9b43c;
