@@ -1,23 +1,26 @@
-h1, h2 {
-  font-family: 'BioRhyme', serif;
+h1,
+h2 {
+  font-family: "BioRhyme", serif;
 }
 
-h2 {
-  line-height: 2.5;
+h2,
+em {
   color: #88681f;
 }
 
 main p {
-font-family: 'Corben', serif;
+  font-family: "Corben", serif;
 }
 
-main {
-  text-align: center;
-  padding: 20px 85px;
-}
-
+main,
 footer {
-  padding: 0 85px;
+  padding: 1rem 10rem;
+  text-align: center;
+}
+
+ footer li {
+ text-align:left;
+ line-height: 1.5;
 }
 
 figcaption {
@@ -25,19 +28,29 @@ figcaption {
 }
 
 img {
-  border: 20px ridge black;
+  border: 1.5rem ridge black;
   width: 100%;
-  max-width: 550px;
+  max-width: 34rem;
   display: block;
   margin: auto;
 }
 
 section {
+  display: flex;
+  flex: 2;
+}
 
+section h2{
+  text-align: center;
+}
 
+section p {
+  flex: 4fr/2fr;
+  margin-left: 1.5rem;
+  justify-content: space-evenly;
 }
 
 .author {
   border-style: groove hidden;
-  color: #b3a454;
+  color: #88681f;
 }
