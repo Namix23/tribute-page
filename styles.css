@@ -49,8 +49,7 @@ section h2{
 }
 
 aside {
-  padding: 1.5rem;
-  float: right;
+border-left: .5rem solid #88681f ;
 }
 
 section p, aside {
