@@ -77,8 +77,17 @@ padding-left: 1.5rem;
 .author {
   border-style: groove hidden;
   color: #88681f;
+  font-weight: 600;
+}
+
+.convincing-disney{
+  padding-top: 8rem;
 }
 
 .paragraph-4 {
+padding:  1.5rem;
+}
 
+a:visited {
+  color:  #88681f;;
 }
