@@ -6,16 +6,20 @@ h2 {
 h2,
 em {
   color: #88681f;
+padding-top: 3.5rem;
 }
 
-main p {
+main, aside {
   font-family: "Corben", serif;
 }
 
-main,
+body {
+padding: 1rem 10rem;
+}
+
+header, 
 footer {
-  padding: 1rem 10rem;
-  text-align: center;
+   text-align: center;
 }
 
  footer li {
@@ -37,17 +41,22 @@ img {
 
 section {
   display: flex;
-  flex: 2;
 }
 
 section h2{
   text-align: center;
+  
 }
 
-section p {
-  flex: 4fr/2fr;
-  margin-left: 1.5rem;
-  justify-content: space-evenly;
+aside {
+  padding: 1.5rem;
+  float: right;
+}
+
+section p, aside {
+flex: 4fr/2fr;
+ padding: 0 2.5rem;
+justify-content: space-evenly;
 }
 
 .author {
