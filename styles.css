@@ -5,7 +5,7 @@ h2 {
 
 h2,
 em {
-  color: #88681f;
+color: #88681f;
 padding-top: 3.5rem;
 }
 
@@ -15,16 +15,35 @@ main, aside {
 
 body {
 padding: 1rem 10rem;
+background-image: url(images/ocean.jpg);
+}
+
+div {
+  background: rgb(218, 220, 230);
+  opacity: .9;
+  padding: 0 1rem;
+  border-radius: 2rem;
 }
 
 header, 
-footer {
+section h2, footer h2 {
    text-align: center;
 }
 
  footer li {
- text-align:left;
  line-height: 1.5;
+}
+
+ul {
+  padding-left: 1rem;
+}
+
+li {
+  padding-bottom: 1rem;
+}
+
+footer h2 {
+padding: 0;
 }
 
 figcaption {
@@ -37,28 +56,29 @@ img {
   max-width: 34rem;
   display: block;
   margin: auto;
+  opacity: 1;
 }
 
 section {
   display: flex;
 }
 
-section h2{
-  text-align: center;
-  
+section p {
+flex: 4fr/2fr;
+ padding-left: 1.5rem;
+text-align: justify;
 }
 
 aside {
-border-left: .5rem solid #88681f ;
-}
-
-section p, aside {
-flex: 4fr/2fr;
- padding: 0 2.5rem;
-justify-content: space-evenly;
+border-left: .2rem solid #88681f ;
+padding-left: 1.5rem;
 }
 
 .author {
   border-style: groove hidden;
   color: #88681f;
+}
+
+.paragraph-4 {
+
 }
